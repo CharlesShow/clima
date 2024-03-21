@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 63, 0.89);
+}
+
+#container {
+  color: #fdfdfd;
+  padding: 2rem;
+  background-color: rgb(72, 72, 252);
+  border-radius: 15px;
+}
+
+button {
+  cursor: pointer;
+}

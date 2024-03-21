@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  align-items: center;
+}
+
+#btn_search {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  height: 40px;
+  width: 40px;
+  margin-left: 8px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+#btn_search:hover {
+  outline: 2px black solid;
+}
+
+
+input {
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  color: black;
+  margin-left: 3px;
+}
+
+input::placeholder {
+  color: rgb(196, 196, 196);
+}
+
+input:focus {
+  outline: 2px solid black;
+}

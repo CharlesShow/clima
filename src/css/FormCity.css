@@ -1,0 +1,96 @@
+#form_city {
+  margin-top: 20px;
+  border-top: 3px solid #fdfdfd;
+  padding-top: 20px;
+  color: black;
+}
+
+#location_icon {
+  margin-right: 10px;
+}
+
+#country_flag {
+  margin-left: 10px;
+}
+
+#name_city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fdfdfd;
+}
+
+#temperature {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  background-color: #2994ce;
+  border: solid white;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+
+#temperature div {
+  text-align: center;
+}
+
+#temperature_value {
+  font-size: 55px;
+  font-weight: bold;
+  color: #fdfdfd;
+}
+
+#temperature_description {
+  font-size: 14px;
+  color: #fdfdfd;
+}
+
+#outher_infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+#outher_infos .info {
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid black;
+  gap: 10px;
+}
+
+#outher_infos .info i {
+  font-size: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+#outher_infos .info h2 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#outher_infos .info p {
+  text-align: center;
+}
+
+#temp_max_icon {
+  color: red;
+}
+
+#temp_min_icon {
+  color: rgb(0, 240, 240);
+}
+
+#humidity_icon {
+  color: rgb(0, 47, 255);
+}
+
+#wind_icon {
+  color: rgb(187, 187, 187);
+}
